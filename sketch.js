@@ -35,7 +35,7 @@ function setup(){
 
     // Code for green box
     var greenBox_options ={
-        isStatic: true,
+        isStatic: false,
     }
 
     greenBox = Bodies.rectangle(380,320,100,120,greenBox_options);
